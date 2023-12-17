@@ -77,7 +77,7 @@ redshift_password = secret_dict['password']
 redshift_database = "dev"
 redshift_schema = "ads"
 redshift_table = "ads_test_table"
-redshift_tmpdir = "s3://aws-glue-assets-082526546443-us-east-2/temp/"
+redshift_tmpdir = "s3://aws-glue-assets-us-east-2/temp/"
 tempformat = "CSV"
 redshift_iam_role = "arn:aws:iam::aws-account:role/redshiftetl"
 
